@@ -22,6 +22,10 @@
   - Accepts path of the dataset on which the evaluation must be done.
   - Example of running the code: python3 evaluate.py trainset
   
+## Accuracies on final model (best.ckpt) 
+Accuracy for predicting match between faces : 86 %
+Accuracy for predicting mis-match between faces : 83 %
+  
 ## A Description of the code
 
 * The ResNet18 architecture is used here to generate feature vectors for the faces. After generating the feature vectors, cosine similarity measure is used to find match and mis-match between images.
