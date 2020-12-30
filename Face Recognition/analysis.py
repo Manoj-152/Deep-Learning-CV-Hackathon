@@ -35,7 +35,7 @@ def face_extractor(list):
         image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
         face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
-        faces = face_cascade.detectMultiScale(image,scaleFactor=1.3,minNeighbors=5,minSize=(30, 30))
+        faces = face_cascade.detectMultiScale(image,scaleFactor=1.25,minNeighbors=5,minSize=(30, 30))
         cnt += 1
         for (x,y,w,h) in faces:
             face = image[y:y+h,x:x+w]
