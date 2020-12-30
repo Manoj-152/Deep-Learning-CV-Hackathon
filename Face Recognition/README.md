@@ -24,7 +24,10 @@
   
 ## Accuracies on final model (best.ckpt) 
 Accuracy for predicting match between faces : 86 %
+
 Accuracy for predicting mis-match between faces : 83 %
+
+(Calculated by using evaluate.py on the validation set)
   
 ## A Description of the code
 
