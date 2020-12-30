@@ -13,14 +13,17 @@
 ## Files
 
 * Run the train.py file to train the model.
-  - 2000 epochs
-  - Estimated time for completion: 3 hours
+  - 500 epochs
+  - Estimated time for completion: 2 hours
 * Run the analysis.py file to find match or mis-match between faces.
   - Accepts paths of two pictures as input using argparse. (reference photo and selfie photo)
   - Example of running the code: python3 analysis.py path_1 path_2
 * Run the evaluate.py code to find the match and mis-match accuracies on any other external dataset.
   - Accepts path of the dataset on which the evaluation must be done.
   - Example of running the code: python3 evaluate.py trainset
+* Threshold_experimentation.py: For estimating the similarity threshold value.
+* Resnet.py: Contains the resnet model class; required to build the resnet18 model.
+* Dataloader.py: Contains the FaceDataset class; required to build the trainloader and valloader.
   
 ## Accuracies on final model (best.ckpt) 
 Accuracy for predicting match between faces : 84 %
