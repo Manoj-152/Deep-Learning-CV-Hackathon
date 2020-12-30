@@ -1,5 +1,7 @@
 # Face Recognition using Deep Learning
 
+*Refer Examples folder to see some face comparisons done on celebrities*
+
 ## Requirements (Libraries)
 
 * torch 1.7.0 
