@@ -37,3 +37,5 @@ Accuracy for predicting mis-match between faces : 81 %
 * The ResNet18 architecture is used here to generate feature vectors for the faces. After generating the feature vectors, cosine similarity measure is used to find match and mis-match between images.
 * The cosine similarity measure is printed here as the confidence score of matching between two face pictures. A threshold of 0.54 was set on the similarity measure for matching and mis-matching of faces.
 * The threshold of 0.54 was chosen by analysing using the threshold_experimentation.py file, which could also be run to get a match accuracy vs threshold value and mis-match accuracy vs threshold value graph on the validation set. The graph results are also as follows:
+
+![Threshold experimentation graph](https://github.com/Manoj-152/Deep-Learning-CV-Hackathon/Face Recognition/blob/main/validation_graph.png)
