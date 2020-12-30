@@ -23,9 +23,9 @@
   - Example of running the code: python3 evaluate.py trainset
   
 ## Accuracies on final model (best.ckpt) 
-Accuracy for predicting match between faces : 86 %
+Accuracy for predicting match between faces : 84 %
 
-Accuracy for predicting mis-match between faces : 83 %
+Accuracy for predicting mis-match between faces : 81 %
 
 (Calculated by using evaluate.py on the validation set)
   
