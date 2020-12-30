@@ -1,6 +1,7 @@
 # Face Recognition using Deep Learning
 
 *Refer Examples folder to see some face comparisons done on celebrities*
+*best_ckpt.pth contains the trained model weights*
 
 ## Requirements (Libraries)
 
