@@ -19,6 +19,7 @@ rootdir
     │    ├── README.md
     │    ├── analysis.py
     │    ├── dataloader.py
+    │    ├── best_ckpt.pth
     │    ├── evaluate.py
     │    ├── resnet.py
     │    ├── threshold_experimentation.py
